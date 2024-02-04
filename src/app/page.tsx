@@ -13,7 +13,7 @@ export default function Home() {
           Data from connected accounts is only stored locally on the device when
           it is required for functionality and performance of Pixelix. This data
           is strictly confidental and cannot be accessed by other apps (on
-          non-rooted devices). It can be deleted by clearing Pixelix's local
+          non-rooted devices). It can be deleted by clearing Pixelix&apos;s local
           storage or uninstalling the app.
         </p>
         <p className="pb-5">
