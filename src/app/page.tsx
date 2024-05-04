@@ -2,25 +2,38 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-6 lg:p-24">
-      <div className="max-w-screen-lg">
-        <h1 className="text-4xl font-bold pb-5">Pixelix Privacy Policy</h1>
-        <p className="pb-5">
-          Pixelix does not collect any usage data or personal information from
-          its users.
-        </p>
-        <p className="pb-5">
-          Data from connected accounts is only stored locally on the device when
-          it is required for functionality and performance of Pixelix. This data
-          is strictly confidental and cannot be accessed by other apps (on
-          non-rooted devices). It can be deleted by clearing Pixelix&apos;s local
-          storage or uninstalling the app.
-        </p>
-        <p className="pb-5">
-          Keep in mind that the Pixelfed instance(s) you use Pixelix with have
-          their own privacy policies. You can usually find them linked somewhere
-          on the homepage of the instance.
-        </p>
+    <main
+      style={{ backgroundImage: `url('../../../bg-5.jpg')` }}
+      className="flex min-h-screen flex-col bg-no-repeat bg-cover bg-center bg-fixed items-center justify-between"
+    >
+      <div className="w-full backdrop-blur-3xl">
+        <div className="h-screen w-full">
+          <div className="h-full w-full  flex items-center justify-center">
+            <div className="container">
+              <h1 className="text-6xl font-bold text-center">Where Moments</h1>
+
+              <h1 className="text-6xl font-bold text-center">
+                Become Masterpieces
+              </h1>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center pt-96 pb-96">
+          <div className="container flex flex-row">
+            <div className="basis-1/4">
+              <div className="h-64 w-64 rounded-md bg-white"></div>
+            </div>
+            <div className="basis-3/4">
+              Your personalized curation of inspiration, ideas, and must-haves,
+              tailored just for you!
+            </div>
+          </div>
+        </div>
+
+        <section>
+          <div className="p-3 text-center">Developed with ❤️ by <strong>Daniel</strong> and Emanuel</div>
+        </section>
       </div>
     </main>
   );
