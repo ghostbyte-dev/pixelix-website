@@ -33,14 +33,46 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center pt-96 pb-96">
-          <div className="container flex flex-row">
-            <div className="basis-1/4">
-              <div className="h-64 w-64 rounded-md bg-white"></div>
+        <div className="flex justify-center pt-28 pb-96">
+          <div className="h-full w-full  flex items-center justify-center">
+            <div className="container flex flex-col items-center">
+              <h1 className="text-3xl font-bold text-center md:text-6xl">
+                Create your personal treasure
+              </h1>
+
+              <h1 className="text-3xl font-bold text-center md:text-6xl pb-12">
+                chest with Collections
+              </h1>
+
+              <Image
+                src="/collections.png"
+                alt=""
+                width="750"
+                height="250"
+                className="rounded-2xl"
+              />
             </div>
-            <div className="basis-3/4">
-              Your personalized curation of inspiration, ideas, and must-haves,
-              tailored just for you!
+          </div>
+        </div>
+
+        <div className="flex justify-center pb-96">
+          <div className="h-full w-full  flex items-center justify-center">
+            <div className="container flex flex-col items-center">
+              <h1 className="text-3xl font-bold text-center md:text-6xl">
+                Get inspired by the pulse
+              </h1>
+
+              <h1 className="text-3xl font-bold text-center md:text-6xl pb-12">
+                of the moment
+              </h1>
+
+              <Image
+                src="/trending.png"
+                alt=""
+                width="750"
+                height="250"
+                className="rounded-2xl"
+              />
             </div>
           </div>
         </div>
