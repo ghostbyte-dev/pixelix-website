@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main
-      style={{ backgroundImage: `url('../../../bg-7.jpg')` }}
+      style={{ backgroundImage: `url('../../../bg-24.jpg')` }}
       className="flex min-h-screen flex-col bg-no-repeat bg-cover bg-center bg-fixed items-center justify-between"
     >
       <div className="w-full backdrop-blur-3xl">
@@ -55,7 +55,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center pb-96">
+        <div className="flex justify-center pb-96 pt-48">
           <div className="h-full w-full  flex items-center justify-center">
             <div className="container flex flex-col items-center">
               <h1 className="text-3xl font-bold text-center md:text-6xl">
