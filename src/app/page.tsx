@@ -9,7 +9,14 @@ export default function Home() {
     >
       <div className="w-full backdrop-blur-3xl">
         <div className="h-screen w-full">
-          <div className="absolute p-8 pl-12">PIXELIX</div>
+          <div className="absolute p-10">
+            <img src="/v1-white.svg" alt="" className="w-8" />
+
+            {/* <div className="">
+              PIXELIX
+            </div> */}
+            
+          </div>
 
           <div className="h-full w-full  flex items-center justify-center">
             <div className="container flex flex-col items-center">
