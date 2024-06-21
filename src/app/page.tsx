@@ -4,18 +4,16 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main
-      style={{ backgroundImage: `url('../../../bg-24.jpg')` }}
-      className="flex min-h-screen flex-col bg-no-repeat bg-cover bg-center bg-fixed items-center justify-between"
+      className="flex min-h-screen flex-col text-[#101318] bg-no-repeat bg-cover bg-center bg-fixed items-center justify-between bg-gradient-to-tr from-[#D4DD46] to-[#7FB246]"
     >
-      <div className="w-full backdrop-blur-3xl">
+      <div className="w-full">
         <div className="h-screen w-full">
           <div className="absolute p-10">
-            <img src="/v1-white.svg" alt="" className="w-8" />
+            <img src="/logo_dark.svg" alt="" className="w-8" />
 
             {/* <div className="">
               PIXELIX
             </div> */}
-            
           </div>
 
           <div className="h-full w-full  flex items-center justify-center">
