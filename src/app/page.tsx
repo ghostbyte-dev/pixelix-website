@@ -3,10 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
   EffectCards,
 } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -121,17 +117,17 @@ export default function Home() {
               </ul>
 
               <div className="flex space-x-5 mt-5 mb-5">
-                <Link href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix">
+                <Link href="https://f-droid.org/de/packages/com.daniebeler.pfpixelix/" className="transition-transform duration-300 hover:scale-95 inline-block">
                   <Image
-                    src="/google-play-badge.png"
+                    src="/buttons/fdroid.png"
                     alt="Download on Google Play"
                     width="282"
                     height="84"
                   />
                 </Link>
-                <Link href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix">
+                <Link href="https://apt.izzysoft.de/fdroid/index/apk/com.daniebeler.pfpixelix" className="transition-transform duration-300 hover:scale-95 inline-block">
                   <Image
-                    src="/google-play-badge.png"
+                    src="/buttons/izzyondroid.png"
                     alt="Download on Google Play"
                     width="282"
                     height="84"
@@ -173,7 +169,7 @@ export default function Home() {
           </div>
 
           <Link href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix">
-            <div className="bg-black p-5 rounded-lg text-white transition-transform duration-300 hover:scale-95 inline-block">
+            <div className="bg-black p-5 rounded-lg text-white font-bold transition-transform duration-300 hover:scale-95 inline-block">
               Check out the repository
             </div>
           </Link>
