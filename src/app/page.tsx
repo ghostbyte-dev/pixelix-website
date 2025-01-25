@@ -2,9 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import {
-  EffectCards,
-} from "swiper/modules";
+import { EffectCards } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -13,16 +11,16 @@ import "swiper/css/bundle";
 export default function Home() {
   return (
     <main className="text-[#101318] bg-fixed bg-gradient-to-tr from-[#D4DD46] to-[#7FB246]">
-      <div className="w-full">
-        <section className="h-screen w-full">
-          <div className="absolute p-10">
-            <img src="/logo_dark.svg" alt="" className="w-8" />
-          </div>
+      <div className="absolute p-10">
+        <img src="/logo_dark.svg" alt="" className="w-8 pointer-events-none" />
+      </div>
 
-          <div className="lg:h-full w-full flex items-center justify-evenly flex-wrap">
-            <div className="flex flex-col items-center flex-wrap mx-16">
+      <div className="w-full">
+        <section className="lg:h-screen max-w-6xl w-4/5 mx-auto">
+          <div className="lg:h-full w-full pt-36 lg:pt-0 flex items-center lg:justify-between flex-wrap">
+            <div className="w-full lg:w-1/2 flex justify-center lg:justify-normal">
               <div>
-                <h1 className="text-3xl font-extrabold md:text-6xl mb-5">
+                <h1 className="text-4xl font-extrabold md:text-6xl mb-5">
                   <span>
                     Where every <br />
                   </span>
@@ -43,47 +41,48 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-
-            <div className="mx-16">
-              <Swiper
-                className="h-[700px] aspect-[1080/2400]"
-                slidesPerView={"auto"}
-                effect={"cards"}
-                modules={[EffectCards]}
-              >
-                <SwiperSlide>
-                  <Image
-                    src="/screenshots/screen_1.png"
-                    alt=""
-                    fill
-                    className="rounded-xl"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="/screenshots/screen_2.png"
-                    alt=""
-                    fill
-                    className="rounded-xl"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="/screenshots/screen_3.png"
-                    alt=""
-                    fill
-                    className="rounded-xl"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Image
-                    src="/screenshots/screen_4.png"
-                    alt=""
-                    fill
-                    className="rounded-xl"
-                  />
-                </SwiperSlide>
-              </Swiper>
+            <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mt-32 mb-32">
+              <div className="mr-16">
+                <Swiper
+                  className="w-[320px] max-w-[50vw] aspect-[1080/2400]"
+                  slidesPerView={"auto"}
+                  effect={"cards"}
+                  modules={[EffectCards]}
+                >
+                  <SwiperSlide>
+                    <Image
+                      src="/screenshots/screen_1.png"
+                      alt=""
+                      fill
+                      className="rounded-xl"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src="/screenshots/screen_2.png"
+                      alt=""
+                      fill
+                      className="rounded-xl"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src="/screenshots/screen_3.png"
+                      alt=""
+                      fill
+                      className="rounded-xl"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src="/screenshots/screen_4.png"
+                      alt=""
+                      fill
+                      className="rounded-xl"
+                    />
+                  </SwiperSlide>
+                </Swiper>
+              </div>
             </div>
           </div>
         </section>
@@ -117,7 +116,10 @@ export default function Home() {
               </ul>
 
               <div className="flex space-x-5 mt-5 mb-5">
-                <Link href="https://f-droid.org/de/packages/com.daniebeler.pfpixelix/" className="transition-transform duration-300 hover:scale-95 inline-block">
+                <Link
+                  href="https://f-droid.org/de/packages/com.daniebeler.pfpixelix/"
+                  className="transition-transform duration-300 hover:scale-95 inline-block"
+                >
                   <Image
                     src="/buttons/fdroid.png"
                     alt="Download on Google Play"
@@ -125,7 +127,10 @@ export default function Home() {
                     height="84"
                   />
                 </Link>
-                <Link href="https://apt.izzysoft.de/fdroid/index/apk/com.daniebeler.pfpixelix" className="transition-transform duration-300 hover:scale-95 inline-block">
+                <Link
+                  href="https://apt.izzysoft.de/fdroid/index/apk/com.daniebeler.pfpixelix"
+                  className="transition-transform duration-300 hover:scale-95 inline-block"
+                >
                   <Image
                     src="/buttons/izzyondroid.png"
                     alt="Download on Google Play"
@@ -181,7 +186,7 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-wrap">
-            <div className="w-1/2 p-4 md:w-1/2 sm:w-full text-white">
+            <div className="w-full md:p-4 md:w-1/2 text-white mt-5">
               <div className="p-4 bg-black rounded-xl flex flex-col items-center">
                 <Image
                   src="/about/daniel.webp"
@@ -192,7 +197,7 @@ export default function Home() {
                 />
 
                 <h3 className="text-2xl mb-3 font-bold">Daniel Hiebeler</h3>
-                <p className="text-justify">
+                <p className="">
                   I am 21 years old and from Lustenau. In 2022, I graduated from
                   HTL Dornbirn in Business Informatics. After my civilian
                   service in a kindergarten, I moved to Vienna in October 2023
@@ -270,9 +275,96 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="w-1/2 p-4 md:w-1/2 sm:w-full">
-              <div className="bg-green-500 h-48">Section 2</div>
+            
+
+
+
+            <div className="w-full md:p-4 md:w-1/2 text-white mt-5">
+              <div className="p-4 bg-black rounded-xl flex flex-col items-center">
+                {/* <Image
+                  src="/about/daniel.webp"
+                  alt=""
+                  width={120}
+                  height={120}
+                  className="rounded-full"
+                /> */}
+
+                <h3 className="text-2xl mb-3 font-bold">Emanuel Hiebeler</h3>
+                <p className="">
+                  
+                </p>
+
+                {/* <div className="pb-6 mt-4 flex items-center space-x-4 w-full">
+                  <Link
+                    href="https://pixelix.social/daniebeler"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition-transform duration-300 hover:scale-95"
+                  >
+                    <Image
+                      src="/social-icons/pixelfed.svg"
+                      width={30}
+                      height={30}
+                      alt=""
+                    />
+                  </Link>
+
+                  <Link
+                    href="https://techhub.social/@daniebeler"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition-transform duration-300 hover:scale-95"
+                  >
+                    <Image
+                      src="/social-icons/mastodon.svg"
+                      width={30}
+                      height={30}
+                      alt=""
+                    />
+                  </Link>
+
+                  <Link
+                    href="https://instagram.com/daniebeler"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition-transform duration-300 hover:scale-95"
+                  >
+                    <Image
+                      src="/social-icons/instagram_color.webp"
+                      width={30}
+                      height={30}
+                      alt=""
+                    />
+                  </Link>
+
+                  <Link
+                    href="https://github.com/daniebeler"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition-transform duration-300 hover:scale-95"
+                  >
+                    <Image
+                      src="/social-icons/github.svg"
+                      width={30}
+                      height={30}
+                      alt=""
+                    />
+                  </Link>
+                </div> */}
+
+                <Link
+                  href="https://emanuelhiebeler.me/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-transform duration-300 hover:scale-95"
+                >
+                  emanuelhiebeler.me
+                </Link>
+              </div>
             </div>
+
+
+
           </div>
         </section>
 
