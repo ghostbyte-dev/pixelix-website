@@ -41,7 +41,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mt-32 mb-32">
+            <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mt-32 lg:mt-0 mb-32 lg:mb-0">
               <div className="mr-16">
                 <Swiper
                   className="w-[320px] max-w-[50vw] aspect-[1080/2400]"
@@ -88,7 +88,7 @@ export default function Home() {
         </section>
 
         <section className="max-w-6xl w-4/5 mx-auto">
-          <h2 className="text-3xl md:text-5xl text-center mb-6 font-extrabold">
+          <h2 className="text-3xl md:text-5xl text-center mt-12 mb-6 font-extrabold">
             Free as in Free Beer 🍻
           </h2>
 

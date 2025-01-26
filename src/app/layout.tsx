@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, PT_Sans } from "next/font/google";
 import "./globals.css";
 
-const inter = PT_Sans({ subsets: ["latin"], weight: "700" });
+const inter = Inter({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Pixelix",
