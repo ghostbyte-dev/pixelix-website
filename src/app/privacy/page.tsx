@@ -4,17 +4,16 @@ export default function Privacy() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-6 lg:p-24 text-[#101318] bg-fixed bg-gradient-to-tr from-[#D4DD46] to-[#7FB246]">
       <div className="max-w-screen-lg">
-
         <span>
           <Link href="/" className="mb-5 inline-block hover:underline">
-        Home
-        </Link>
-        <span className="pl-1 text-gray-800">/ Privacy Policy</span>
-        
+            Home
+          </Link>
+          <span className="pl-1 text-gray-800">/ Privacy Policy</span>
         </span>
-        
 
-        <h1 className="text-3xl md:text-5xl font-bold pb-5">Privacy Policy for Pixelix</h1>
+        <h1 className="text-3xl md:text-5xl font-bold pb-5">
+          Privacy Policy for Pixelix
+        </h1>
         <p>
           <strong>Last updated: </strong> 26.01.2025
         </p>
@@ -39,7 +38,9 @@ export default function Privacy() {
           on the homepage of the instance.
         </p>
 
-        <h2 className="text-2xl md:text-4xl font-bold pt-5">How We Protect Your Data</h2>
+        <h2 className="text-2xl md:text-4xl font-bold pt-5">
+          How We Protect Your Data
+        </h2>
         <p>Pixelix is designed to handle your data securely:</p>
 
         <ul className="list-disc list-inside">
@@ -54,7 +55,9 @@ export default function Privacy() {
           <li>Pixelix does not log or retain any personal data.</li>
         </ul>
 
-        <h2 className="text-2xl md:text-4xl font-bold pt-5">Third-Party Services</h2>
+        <h2 className="text-2xl md:text-4xl font-bold pt-5">
+          Third-Party Services
+        </h2>
         <p>Pixelix interacts with:</p>
 
         <ol className="list-inside list-decimal">
@@ -81,9 +84,14 @@ export default function Privacy() {
           </li>
         </ol>
 
-        <p>Neither Pixelfed nor FediDB shares your personal data with Pixelix beyond what is necessary for app functionality.</p>
+        <p>
+          Neither Pixelfed nor FediDB shares your personal data with Pixelix
+          beyond what is necessary for app functionality.
+        </p>
 
-        <h2 className="text-2xl md:text-4xl font-bold pt-5">Your Privacy Choices</h2>
+        <h2 className="text-2xl md:text-4xl font-bold pt-5">
+          Your Privacy Choices
+        </h2>
 
         <p>You have control over your data while using Pixelix:</p>
 
@@ -98,6 +106,39 @@ export default function Privacy() {
             your device.
           </li>
         </ul>
+
+        <h2 className="text-2xl md:text-4xl font-bold pt-5">
+          Child Safety Standards
+        </h2>
+
+        <p className="mb-2">
+          Our app, Pixelix, is committed to adhering to the highest safety
+          standards to protect children from sexual abuse and exploitation. As a
+          third-party client for the social network Pixelfed, the following
+          measures are in place:
+        </p>
+
+        <ol className="list-disc list-inside">
+          <li className="mb-2">
+            <strong>Content Moderation:</strong> Pixelfed implements content
+            moderation mechanisms to identify and remove inappropriate or
+            illegal content. Our app solely accesses and displays content from
+            Pixelfed and does not host or manage any content independently.
+          </li>
+
+          <li className="mb-2">
+            <strong>Reporting Mechanisms:</strong>
+            Users can report content that violates Pixelfed’s community
+            guidelines directly within the Pixelfed platform.
+          </li>
+
+          <li>
+            <strong>No Hosting of Content:</strong>
+            Our app does not store or host any user-generated content. All
+            content is retrieved directly from the servers within the Pixelfed
+            network.
+          </li>
+        </ol>
 
         <h2 className="text-2xl md:text-4xl font-bold pt-5">
           Changes to This Privacy Policy
