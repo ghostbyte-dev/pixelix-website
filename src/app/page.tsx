@@ -46,7 +46,7 @@ export default function Home() {
                 <Swiper
                   className="w-[320px] max-w-[50vw] aspect-[1080/2400]"
                   slidesPerView={"auto"}
-                  effect={"cards"}
+                  effect={"carousel"}
                   modules={[EffectCards]}
                 >
                   <SwiperSlide>
@@ -273,7 +273,7 @@ export default function Home() {
             <Image fill src="/github.png" alt="" className="rounded-xl" />
           </div>
 
-          <Link href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix">
+          <Link href="https://github.com/daniebeler/pixelix">
             <div className="bg-black p-5 rounded-lg text-white font-bold transition-transform duration-300 hover:scale-95 inline-block">
               Check out the repository
             </div>
