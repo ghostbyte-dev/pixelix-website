@@ -46,7 +46,7 @@ export default function Home() {
                 <Swiper
                   className="w-[320px] max-w-[50vw] aspect-[1080/2400]"
                   slidesPerView={"auto"}
-                  effect={"carousel"}
+                  effect={"cards"}
                   modules={[EffectCards]}
                 >
                   <SwiperSlide>
