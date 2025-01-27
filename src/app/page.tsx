@@ -10,7 +10,7 @@ import "swiper/css/bundle";
 
 export default function Home() {
   return (
-    <main className="text-[#101318] bg-fixed bg-gradient-to-tr from-[#D4DD46] to-[#7FB246]">
+    <main className="text-[#101318] bg-gradient-to-tr from-[#D4DD46] to-[#7FB246]">
       <div className="absolute p-10">
         <img src="/logo_dark.svg" alt="" className="w-8 pointer-events-none" />
       </div>
