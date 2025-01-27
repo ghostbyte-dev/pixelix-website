@@ -42,7 +42,7 @@ export default function Home() {
               </div>
             </div>
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mt-32 lg:mt-0 mb-32 lg:mb-0">
-              <div className="mr-16">
+              <div className="lg:mr-16">
                 <Swiper
                   className="w-[320px] max-w-[50vw] aspect-[1080/2400]"
                   slidesPerView={"auto"}
@@ -86,6 +86,105 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="max-w-6xl w-4/5 mb-20 mx-auto flex items-center flex-wrap md:justify-between justify-center flex-col md:flex-row">
+          <div className="md:flex md:w-full md:justify-between">
+            <div className="mb-12">
+              <Image
+                src="/download.svg"
+                alt=""
+                width={50}
+                height={50}
+                className="mb-3"
+              />
+              <p className="text-7xl font-bold">850+</p>
+              <p>Downloads from Play Store</p>
+            </div>
+
+            <div className="mb-12">
+              <Image
+                src="/star.svg"
+                alt=""
+                width={50}
+                height={50}
+                className="mb-3"
+              />
+              <p className="text-7xl font-bold">110+</p>
+              <p>Stars on Github</p>
+            </div>
+
+            <div className="mb-12">
+              <Image
+                src="/language.svg"
+                alt=""
+                width={50}
+                height={50}
+                className="mb-3"
+              />
+              <p className="text-7xl font-bold">11+</p>
+              <p>Supported languages</p>
+            </div>
+          </div>
+        </section>
+
+        {/* <section className="max-w-6xl w-4/5 mx-auto">
+          <div className="grid grid-cols-4 gap-4">
+            <div className="relative">
+              <div className="w-full aspect-square"></div>
+              <div className="w-full aspect-square"></div>
+              <Image
+                src="/screenshots/screen_1.png"
+                alt=""
+                layout="responsive"
+                height={16}
+                width={12}
+                className="rounded-xl"
+              />
+            </div>
+            <div className="relative">
+              <div className="w-full aspect-square"></div>
+              <Image
+                src="/screenshots/screen_1.png"
+                alt=""
+                layout="responsive"
+                height={16}
+                width={12}
+                className="mt-12 rounded-xl"
+              />
+            </div>
+
+            <div className="relative">
+              <Image
+                src="/screenshots/screen_1.png"
+                alt=""
+                layout="responsive"
+                height={16}
+                width={12}
+                className="mt-12 rounded-xl"
+              />
+
+              <Image
+                src="/screenshots/screen_1.png"
+                alt=""
+                layout="responsive"
+                height={16}
+                width={12}
+                className="mt-4 rounded-xl"
+              />
+            </div>
+
+            <div className="relative">
+              <div className="w-full aspect-square"></div>
+              <Image
+                src="/screenshots/screen_1.png"
+                alt=""
+                layout="responsive"
+                height={16}
+                width={12}
+                className="mt-12 rounded-xl"
+              />
+            </div>
+          </div>
+        </section> */}
 
         <section className="max-w-6xl w-4/5 mx-auto">
           <h2 className="text-3xl md:text-5xl text-center mt-12 mb-6 font-extrabold">
@@ -161,12 +260,13 @@ export default function Home() {
           </h2>
 
           <p>
-            <strong>Pixelix</strong> is fully open-source, available on GitHub.
-            This means you have the power to explore the code, modify it to suit
-            your needs, and even contribute back to the project. Built with
-            transparency and trust, we ensure there are no hidden trackers or
-            surprises. Join a global community of contributors and make social
-            media the way it should be — free and open for all.
+            <strong>Pixelix</strong> is fully <strong>open-source</strong>,
+            available on <strong>GitHub</strong>. This means you have the power
+            to explore the code, modify it to suit your needs, and even
+            contribute back to the project. Built with transparency and trust,
+            we ensure there are no hidden trackers or surprises. Join a global
+            community of contributors and make social media the way it should be
+            — free and open for all.
           </p>
 
           <div className="w-full aspect-video relative mt-4 mb-5">
@@ -182,7 +282,7 @@ export default function Home() {
 
         <section className="max-w-6xl w-4/5 mx-auto mt-20">
           <h2 className="text-3xl md:text-5xl text-center mb-6 font-extrabold">
-            About us
+          Developed with ❤️
           </h2>
 
           <div className="flex flex-wrap">
@@ -196,7 +296,7 @@ export default function Home() {
                   className="rounded-full"
                 />
 
-                <h3 className="text-2xl mb-3 font-bold">Daniel Hiebeler</h3>
+                <h3 className="text-2xl mb-3 mt-3 font-bold">Daniel Hiebeler</h3>
                 <p className="">
                   I am 21 years old and from Lustenau. In 2022, I graduated from
                   HTL Dornbirn in Business Informatics. After my civilian
@@ -237,20 +337,6 @@ export default function Home() {
                   </Link>
 
                   <Link
-                    href="https://instagram.com/daniebeler"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="transition-transform duration-300 hover:scale-95"
-                  >
-                    <Image
-                      src="/social-icons/instagram_color.webp"
-                      width={30}
-                      height={30}
-                      alt=""
-                    />
-                  </Link>
-
-                  <Link
                     href="https://github.com/daniebeler"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -275,28 +361,23 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            
-
-
 
             <div className="w-full md:p-4 md:w-1/2 text-white mt-5">
               <div className="p-4 bg-black rounded-xl flex flex-col items-center">
-                {/* <Image
-                  src="/about/daniel.webp"
+                <Image
+                  src="/about/emanuel.webp"
                   alt=""
                   width={120}
                   height={120}
                   className="rounded-full"
-                /> */}
+                />
 
-                <h3 className="text-2xl mb-3 font-bold">Emanuel Hiebeler</h3>
-                <p className="">
-                  
-                </p>
+                <h3 className="text-2xl mb-3 mt-3 font-bold">Emanuel Hiebeler</h3>
+                <p className=""></p>
 
-                {/* <div className="pb-6 mt-4 flex items-center space-x-4 w-full">
+                <div className="pb-6 mt-4 flex items-center space-x-4 w-full">
                   <Link
-                    href="https://pixelix.social/daniebeler"
+                    href="https://pixelix.social/hiebeler05"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition-transform duration-300 hover:scale-95"
@@ -310,7 +391,7 @@ export default function Home() {
                   </Link>
 
                   <Link
-                    href="https://techhub.social/@daniebeler"
+                    href="https://techhub.social/@hiebeler05"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition-transform duration-300 hover:scale-95"
@@ -324,21 +405,7 @@ export default function Home() {
                   </Link>
 
                   <Link
-                    href="https://instagram.com/daniebeler"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="transition-transform duration-300 hover:scale-95"
-                  >
-                    <Image
-                      src="/social-icons/instagram_color.webp"
-                      width={30}
-                      height={30}
-                      alt=""
-                    />
-                  </Link>
-
-                  <Link
-                    href="https://github.com/daniebeler"
+                    href="https://github.com/Hiebeler"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition-transform duration-300 hover:scale-95"
@@ -350,7 +417,7 @@ export default function Home() {
                       alt=""
                     />
                   </Link>
-                </div> */}
+                </div>
 
                 <Link
                   href="https://emanuelhiebeler.me/"
@@ -362,9 +429,6 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-
-
-
           </div>
         </section>
 
