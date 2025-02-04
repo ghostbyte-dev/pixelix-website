@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"], weight: "400" });
 export const metadata: Metadata = {
   title: "Pixelix",
   description: "Homepage of the Pixelfed client Pixelix",
+  alternates: {
+    canonical: "https://app.pixelix.social"
+  }
 };
 
 export default function RootLayout({
