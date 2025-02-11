@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://veritate.at/sitemap.xml',
+    sitemap: 'https://app.pixelix.social/sitemap.xml',
   }
 }
