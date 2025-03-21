@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Inter, PT_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import {
   MobileApplication,
   WithContext,
 } from "schema-dts";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"], weight: "400" });
 
@@ -63,13 +64,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         {children}
+
+        <Footer />
       </body>
     </html>
   );
