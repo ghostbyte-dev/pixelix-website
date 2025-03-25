@@ -144,13 +144,9 @@ export default function Footer() {
 
         <div className="p-3 text-center">
           Developed with ❤️ by{" "}
-          <a href="https://daniebeler.com">
-            <strong>Daniel</strong>
-          </a>{" "}
-          and{" "}
-          <a href="https://emanuelhiebeler.me">
-            <strong>Emanuel</strong>
-          </a>{" "}
+          <Link href="https://ghostbyte.dev">
+            <strong>Ghostbyte</strong>
+          </Link>
         </div>
       </div>
     </footer>
