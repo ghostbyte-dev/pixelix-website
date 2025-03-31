@@ -37,7 +37,7 @@ export default function Footer() {
               <ul className="space-y-4">
                 <li>
                   <Link
-                    href="#features"
+                    href="/#features"
                     className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
                   >
                     <span className="w-1.5 h-1.5 rounded-full bg-lime-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
@@ -46,7 +46,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="#download"
+                    href="/#download"
                     className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
                   >
                     <span className="w-1.5 h-1.5 rounded-full bg-lime-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
