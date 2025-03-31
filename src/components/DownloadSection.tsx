@@ -13,8 +13,8 @@ export default function DownloadSection() {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto bg-white/10 backdrop-blur-lg p-12 rounded-3xl shadow-2xl border border-white/20">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-black/10 backdrop-blur-sm rounded-full mb-6 border border-white/10">
-            <span className="w-2 h-2 rounded-full bg-white animate-pulse"></span>
-            <span className="text-sm font-medium text-white">
+            <span className="w-2 h-2 rounded-full bg-black animate-pulse"></span>
+            <span className="text-sm font-medium text-black">
               JOIN THE COMMUNITY
             </span>
           </div>
@@ -54,8 +54,8 @@ export default function DownloadSection() {
               <div className="">Open Source</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/10">
-              <div className="text-3xl font-bold  mb-1">24/7</div>
-              <div>Community Support</div>
+              <div className="text-3xl font-bold  mb-1">200+</div>
+              <div>Github Stars</div>
             </div>
           </div>
         </div>

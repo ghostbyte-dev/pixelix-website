@@ -13,14 +13,14 @@ export default function () {
       {/* Grid pattern */}
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGZpbGwtb3BhY2l0eT0iMC4wMiIgZD0iTTAgMGg2MHY2MEgweiIvPjxwYXRoIGQ9Ik02MCAwdjYwSDBWMGg2MHpNMzAgMzBoMzBWMEgzMHYzMHpNMCA2MGgzMFYzMEgwdjMweiIgZmlsbC1vcGFjaXR5PSIuMDUiIGZpbGw9IiMwMDAiLz48L2c+PC9zdmc+')] opacity-50"></div>
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-4 mt-10 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12 md:gap-20">
           {/* Left content */}
           <div className="lg:w-1/2 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-black/10 backdrop-blur-md rounded-full mb-6 border border-white/10">
               <span className="w-2 h-2 rounded-full bg-lime-400 animate-pulse"></span>
               <span className="text-sm font-medium">
-                Open Source • Privacy-First • Federated
+                Open Source • Federated • Made for You
               </span>
             </div>
 
@@ -55,11 +55,17 @@ export default function () {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-              <Link href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix" className="bg-black flex hover:bg-lime-900 text-white px-8 py-7 text-lg rounded-2xl transition-all duration-300 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)] hover:-translate-y-1 group">
+              <Link
+                href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix"
+                className="bg-black flex hover:bg-lime-900 text-white px-8 py-7 text-lg rounded-2xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group"
+              >
                 <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
                 Get on Google Play
               </Link>
-              <Link href="https://github.com/daniebeler/pixelix" className="border-black/20 flex bg-white/30 backdrop-blur-sm hover:bg-white/50 px-8 py-7 text-lg rounded-2xl transition-all duration-300 hover:shadow-lg">
+              <Link
+                href="https://github.com/daniebeler/pixelix"
+                className="border-black/20 flex bg-white/30 backdrop-blur-sm hover:bg-white/50 px-8 py-7 text-lg rounded-2xl transition-all duration-300 hover:shadow-lg"
+              >
                 <Github className="mr-2 h-5 w-5" />
                 View on GitHub
               </Link>
@@ -93,11 +99,7 @@ export default function () {
             {/* Main phone */}
             <div className="relative mx-auto w-[280px] md:w-[320px]">
               {/* Phone frame */}
-              <div
-                className="relative z-20 bg-black rounded-[40px] p-3 shadow-[0_50px_100px_-20px_rgba(0,0,0,0.3),0_30px_60px_-30px_rgba(0,0,0,0.5)]
-                  before:content-[''] before:absolute before:inset-0 before:border-[8px] before:border-black before:rounded-[40px] before:z-10
-                  after:content-[''] after:absolute after:top-0 after:left-1/2 after:-translate-x-1/2 after:w-32 after:h-6 after:bg-black after:rounded-b-2xl after:z-20"
-              >
+              <div className="relative z-20 bg-black rounded-[40px] p-3 shadow-2xl shadow-black">
                 {/* Phone screen */}
                 <div className="w-full aspect-[9/19.5] overflow-hidden rounded-[32px] relative bg-black">
                   <Image
@@ -107,6 +109,15 @@ export default function () {
                     className="object-cover"
                     priority
                   />
+
+                  {/* <video
+                    src="/demo.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover"
+                  /> */}
 
                   {/* Screen reflection overlay */}
                   <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-white/10 pointer-events-none"></div>
@@ -146,8 +157,6 @@ export default function () {
           </div>
         </div>
       </div>
-
-  
     </section>
   );
 }
