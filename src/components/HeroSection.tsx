@@ -102,22 +102,22 @@ export default function () {
               <div className="relative z-20 bg-black rounded-[40px] p-3 shadow-2xl shadow-black">
                 {/* Phone screen */}
                 <div className="w-full aspect-[9/19.5] overflow-hidden rounded-[32px] relative bg-black">
-                  <Image
+                  {/* <Image
                     src="/screenshots/screen_1.png"
                     alt="Pixelix App Screenshots"
                     fill
                     className="object-cover"
                     priority
-                  />
+                  /> */}
 
-                  {/* <video
-                    src="/demo.mp4"
+                  <video
+                    src="/demo2.mp4"
                     autoPlay
                     loop
                     muted
                     playsInline
                     className="w-full h-full object-cover"
-                  /> */}
+                  />
 
                   {/* Screen reflection overlay */}
                   <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-white/10 pointer-events-none"></div>
@@ -129,7 +129,7 @@ export default function () {
               <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-lime-500 rounded-full blur-xl opacity-20"></div>
 
               {/* Feature highlights */}
-              <div className="absolute -right-4 top-20 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-lg text-sm font-medium z-30 animate-bounce">
+              {/* <div className="absolute -right-4 top-20 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-lg text-sm font-medium z-30 animate-bounce">
                 <span className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-lime-500"></span>
                   Beautiful UI
@@ -152,7 +152,7 @@ export default function () {
                   <span className="w-2 h-2 rounded-full bg-lime-500"></span>
                   Privacy Focused
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
