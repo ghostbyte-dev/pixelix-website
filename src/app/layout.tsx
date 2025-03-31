@@ -6,6 +6,7 @@ import {
   WithContext,
 } from "schema-dts";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"], weight: "400" });
 
@@ -70,6 +71,9 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+
+        <Header />
+
         {children}
 
         <Footer />

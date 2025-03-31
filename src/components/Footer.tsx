@@ -1,4 +1,4 @@
-import { Github, Share2 } from "lucide-react";
+import { Github } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -24,12 +24,6 @@ export default function Footer() {
                 className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center text-lime-400 hover:bg-lime-400 hover:text-black transition-colors"
               >
                 <Github className="h-6 w-6" />
-              </Link>
-              <Link
-                href="#"
-                className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center text-lime-400 hover:bg-lime-400 hover:text-black transition-colors"
-              >
-                <Share2 className="h-6 w-6" />
               </Link>
             </div>
           </div>
@@ -75,11 +69,11 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/imprint"
                     className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
                   >
                     <span className="w-1.5 h-1.5 rounded-full bg-lime-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
-                    Terms of Service
+                    Imprint
                   </Link>
                 </li>
               </ul>
