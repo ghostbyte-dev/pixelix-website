@@ -35,14 +35,14 @@ export default function () {
               <span className="relative">
                 <span className="absolute -inset-1 blur-xl bg-black/10 rounded-lg transform -skew-y-3"></span>
                 <span className="relative inline-block text-black">
-                  Connect.
+                  Create.
                 </span>
               </span>
               <br />
               <span className="relative">
                 <span className="absolute -inset-1 blur-xl bg-black/10 rounded-lg transform -skew-y-3"></span>
                 <span className="relative inline-block bg-clip-text text-transparent bg-gradient-to-r from-lime-900 to-black">
-                  Control.
+                  Share.
                 </span>
               </span>
             </h1>
