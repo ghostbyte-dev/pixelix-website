@@ -1,4 +1,4 @@
-import { Github } from "lucide-react";
+import { Github, Heart } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -115,32 +115,14 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar */}
-        <div className="border-t border-zinc-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-zinc-500 text-sm">
-            © {new Date().getFullYear()} Pixelix. All rights reserved.
-          </p>
-          <div className="flex gap-6">
-            <Link
-              href="#"
-              className="text-zinc-500 hover:text-white text-sm transition-colors"
-            >
-              Privacy
-            </Link>
-            <Link
-              href="#"
-              className="text-zinc-500 hover:text-white text-sm transition-colors"
-            >
-              Terms
+        <div className="w-full flex justify-center">
+          <div className="p-3 text-center text-zinc-500 flex">
+            Developed with{" "}
+            <Heart className="h-6 w-6 mx-1 text-[#9edf33] fill-current" /> by
+            <Link href="https://ghostbyte.dev">
+              <strong className="text-[#9edf33] ml-1">Ghostbyte</strong>
             </Link>
           </div>
-        </div>
-
-        <div className="p-3 text-center">
-          Developed with ❤️ by{" "}
-          <Link href="https://ghostbyte.dev">
-            <strong>Ghostbyte</strong>
-          </Link>
         </div>
       </div>
     </footer>
