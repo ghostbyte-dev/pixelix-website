@@ -4,11 +4,10 @@ import Link from "next/link";
 
 export default function () {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-lime-300 via-lime-400 to-lime-500 py-20 md:py-28">
+    <section className="relative overflow-hidden bg-linear-to-br from-lime-300 via-lime-400 to-lime-500 py-20 md:py-28">
       {/* Decorative elements */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
+      <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-white/20 to-transparent"></div>
       <div className="absolute -top-40 right-0 w-96 h-96 bg-lime-200 rounded-full opacity-20 blur-3xl"></div>
-      <div className="absolute bottom-0 -left-20 w-80 h-80 bg-lime-600 rounded-full opacity-10 blur-3xl"></div>
 
       {/* Grid pattern */}
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGZpbGwtb3BhY2l0eT0iMC4wMiIgZD0iTTAgMGg2MHY2MEgweiIvPjxwYXRoIGQ9Ik02MCAwdjYwSDBWMGg2MHpNMzAgMzBoMzBWMEgzMHYzMHpNMCA2MGgzMFYzMEgwdjMweiIgZmlsbC1vcGFjaXR5PSIuMDUiIGZpbGw9IiMwMDAiLz48L2c+PC9zdmc+')] opacity-50"></div>
@@ -41,7 +40,7 @@ export default function () {
               <br />
               <span className="relative">
                 <span className="absolute -inset-1 blur-xl bg-black/10 rounded-lg transform -skew-y-3"></span>
-                <span className="relative inline-block bg-clip-text text-transparent bg-gradient-to-r from-lime-900 to-black">
+                <span className="relative inline-block bg-clip-text text-transparent bg-linear-to-r from-lime-900 to-black">
                   Share.
                 </span>
               </span>
@@ -64,7 +63,7 @@ export default function () {
               </Link>
               <Link
                 href="https://github.com/daniebeler/pixelix"
-                className="border-black/20 flex bg-white/30 backdrop-blur-sm hover:bg-white/50 px-8 py-7 text-lg rounded-2xl transition-all duration-300 hover:shadow-lg"
+                className="border-black/20 flex bg-white/30 backdrop-blur-xs hover:bg-white/50 px-8 py-7 text-lg rounded-2xl transition-all duration-300 hover:shadow-lg"
               >
                 <Github className="mr-2 h-5 w-5" />
                 View on GitHub
@@ -94,7 +93,7 @@ export default function () {
 
           {/* Right content - Phone mockups */}
           <div className="lg:w-1/2 relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-lime-400 to-lime-600 rounded-full opacity-20 blur-3xl transform scale-125"></div>
+            <div className="absolute inset-0 bg-linear-to-br from-lime-400 to-lime-600 rounded-full opacity-20 blur-3xl transform scale-125"></div>
 
             {/* Main phone */}
             <div className="relative mx-auto w-[280px] md:w-[320px]">
@@ -120,7 +119,7 @@ export default function () {
                   />
 
                   {/* Screen reflection overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-white/10 pointer-events-none"></div>
+                  <div className="absolute inset-0 bg-linear-to-tr from-transparent via-white/5 to-white/10 pointer-events-none"></div>
                 </div>
               </div>
 
@@ -129,14 +128,14 @@ export default function () {
               <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-lime-500 rounded-full blur-xl opacity-20"></div>
 
               {/* Feature highlights */}
-              {/* <div className="absolute -right-4 top-20 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-lg text-sm font-medium z-30 animate-bounce">
+              {/* <div className="absolute -right-4 top-20 bg-white/90 backdrop-blur-xs px-4 py-2 rounded-lg shadow-lg text-sm font-medium z-30 animate-bounce">
                 <span className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-lime-500"></span>
                   Beautiful UI
                 </span>
               </div>
               <div
-                className="absolute -left-4 top-1/3 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-lg text-sm font-medium z-30 animate-bounce"
+                className="absolute -left-4 top-1/3 bg-white/90 backdrop-blur-xs px-4 py-2 rounded-lg shadow-lg text-sm font-medium z-30 animate-bounce"
                 style={{ animationDelay: "0.5s" }}
               >
                 <span className="flex items-center gap-2">
@@ -145,7 +144,7 @@ export default function () {
                 </span>
               </div>
               <div
-                className="absolute -right-4 bottom-40 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-lg text-sm font-medium z-30 animate-bounce"
+                className="absolute -right-4 bottom-40 bg-white/90 backdrop-blur-xs px-4 py-2 rounded-lg shadow-lg text-sm font-medium z-30 animate-bounce"
                 style={{ animationDelay: "1s" }}
               >
                 <span className="flex items-center gap-2">

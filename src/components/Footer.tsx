@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand column */}
           <div className="md:w-1/3">
             <div className="flex items-center gap-3 mb-8">
-              <div className="w-12 h-12 bg-gradient-to-br from-lime-400 to-lime-600 rounded-xl flex items-center justify-center text-black font-bold text-xl">
+              <div className="w-12 h-12 bg-linear-to-br from-lime-400 to-lime-600 rounded-xl flex items-center justify-center text-black font-bold text-xl">
                 <img src="/logo_dark.svg" height={22} width={22} />
               </div>
               <h3 className="text-3xl font-bold">Pixelix</h3>
