@@ -28,7 +28,7 @@ export default function DownloadSection() {
             made the switch.
           </p>
 
-          <div className="flex justify-center gap-6 mb-10">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-10">
             <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
               <Link
                 href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix"
