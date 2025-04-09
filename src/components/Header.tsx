@@ -1,4 +1,4 @@
-import { Download } from "lucide-react";
+import { Github } from "lucide-react";
 import Link from "next/link";
 
 export default function Header() {
@@ -43,11 +43,11 @@ export default function Header() {
       </nav>
       <div>
         <Link
-          href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix"
+          href="https://github.com/daniebeler/pixelix"
           className="bg-black text-white hover:bg-lime-900 border-none rounded-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-md flex items-center px-4 py-2"
         >
-          <Download className="mr-2 h-4 w-4" />
-          Download
+          <Github className="mr-2 h-4 w-4" />
+          View on Github
         </Link>
       </div>
     </header>

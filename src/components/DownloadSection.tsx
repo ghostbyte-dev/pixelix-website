@@ -29,14 +29,33 @@ export default function DownloadSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-6 mb-10">
-            <Link href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix" className="bg-black flex hover:bg-lime-900 text-white px-8 py-7 text-lg rounded-2xl transition-all duration-300 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)] hover:-translate-y-1 group">
-              <Download className="mr-3 h-6 w-6 group-hover:animate-bounce" />
-              Get on Google Play
-            </Link>
-            <Link href="https://github.com/daniebeler/pixelix" className="border-white/20 flex bg-white/10 backdrop-blur-xs hover:bg-white/20 px-8 py-7 text-lg rounded-2xl transition-all duration-300 hover:shadow-lg">
-              <Github className="mr-3 h-6 w-6" />
-              View on GitHub
-            </Link>
+          <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                <Link
+                  href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/buttons/googleplaybadge.png"
+                    className="h-16 object-contain"
+                    alt="Get it on Google Play"
+                  />
+                </Link>
+              </div>
+
+              <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                <Link
+                  href="https://apps.apple.com/us/app/id6743839819"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/buttons/appstorebadgewhite.svg"
+                    className="h-16 object-contain"
+                    alt="Get it on Apple App Store"
+                  />
+                </Link>
+              </div>
           </div>
 
           {/* Stats */}
