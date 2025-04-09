@@ -28,34 +28,34 @@ export default function DownloadSection() {
             made the switch.
           </p>
 
-          <div className="flex flex-col sm:flex-row justify-center gap-6 mb-10">
-          <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                <Link
-                  href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="/buttons/googleplaybadge.png"
-                    className="h-16 object-contain"
-                    alt="Get it on Google Play"
-                  />
-                </Link>
-              </div>
+          <div className="flex justify-center gap-6 mb-10">
+            <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+              <Link
+                href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/buttons/googleplaybadge.png"
+                  className="h-16 object-contain"
+                  alt="Get it on Google Play"
+                />
+              </Link>
+            </div>
 
-              <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                <Link
-                  href="https://apps.apple.com/us/app/id6743839819"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="/buttons/appstorebadgewhite.svg"
-                    className="h-16 object-contain"
-                    alt="Get it on Apple App Store"
-                  />
-                </Link>
-              </div>
+            <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+              <Link
+                href="https://apps.apple.com/us/app/id6743839819"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/buttons/appstorebadgewhite.svg"
+                  className="h-16 object-contain"
+                  alt="Get it on Apple App Store"
+                />
+              </Link>
+            </div>
           </div>
 
           {/* Stats */}
