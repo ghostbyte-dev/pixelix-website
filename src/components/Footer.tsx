@@ -20,8 +20,8 @@ export default function Footer() {
 							<h3 className="text-3xl font-bold">Pixelix</h3>
 						</div>
 						<p className="mb-8 text-zinc-400 text-lg">
-							An open-source Android client for Pixelfed, designed with modern
-							aesthetics and performance in mind.
+							An open-source Android and iOS client for Pixelfed, designed with
+							modern aesthetics and performance in mind.
 						</p>
 						<div className="flex gap-4">
 							<Link

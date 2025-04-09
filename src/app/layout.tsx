@@ -35,9 +35,11 @@ const jsonLd: WithContext<MobileApplication> = {
 		bestRating: 5,
 		itemReviewed: "Pixelix",
 	},
-	operatingSystem: "Android",
-	installUrl:
+	operatingSystem: ["Android", "iOS"],
+	installUrl: [
 		"https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix",
+		"https://apps.apple.com/us/app/id6743839819",
+	],
 	url: "https://app.pixelix.social",
 	author: [
 		{
