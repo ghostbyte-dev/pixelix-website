@@ -21,7 +21,7 @@ export default function FeatureCard({
 
       {/* Content */}
       <div className="relative p-8 backdrop-blur-xs">
-        <div className="w-16 h-16 rounded-xl bg-lime-500/10 flex items-center justify-center mb-6 group-hover:bg-lime-500/20 transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-lime-500/10">
+        <div className="w-16 h-16 rounded-xl bg-lime-400 text-black flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-lime-500/10">
           {icon}
         </div>
         <h3 className="text-2xl font-bold mb-4 group-hover:text-lime-300 transition-colors">
