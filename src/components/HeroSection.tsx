@@ -53,21 +53,42 @@ export default function () {
               </span>
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-              <Link
-                href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix"
-                className="bg-black flex hover:bg-lime-900 text-white px-8 py-7 text-lg rounded-2xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group"
-              >
-                <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
-                Get on Google Play
-              </Link>
-              <Link
+            <div className="flex gap-4 justify-center lg:justify-start mb-8">
+              <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                <Link
+                  href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/buttons/googleplaybadge.png"
+                    className="h-16 object-contain"
+                    alt="Get it on Google Play"
+                  />
+                </Link>
+              </div>
+
+              <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                <Link
+                  href="https://apps.apple.com/us/app/id6743839819"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/buttons/appstorebadgewhite.svg"
+                    className="h-16 object-contain"
+                    alt="Get it on Apple App Store"
+                  />
+                </Link>
+              </div>
+
+              {/* <Link
                 href="https://github.com/daniebeler/pixelix"
                 className="border-black/20 flex bg-white/30 backdrop-blur-xs hover:bg-white/50 px-8 py-7 text-lg rounded-2xl transition-all duration-300 hover:shadow-lg"
               >
                 <Github className="mr-2 h-5 w-5" />
                 View on GitHub
-              </Link>
+              </Link> */}
             </div>
 
             <div className="flex items-center gap-4 justify-center lg:justify-start">
