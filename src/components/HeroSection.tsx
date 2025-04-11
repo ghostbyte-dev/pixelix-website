@@ -69,7 +69,7 @@ export default function () {
 
               <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                 <Link
-                  href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix"
+                  href="https://f-droid.org/packages/com.daniebeler.pfpixelix"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
