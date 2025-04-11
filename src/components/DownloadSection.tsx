@@ -44,6 +44,20 @@ export default function DownloadSection() {
 
             <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
               <Link
+                href="https://f-droid.org/packages/com.daniebeler.pfpixelix"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/buttons/fdroid-badge.svg"
+                  className="h-16 object-contain"
+                  alt="Get it on D-Droid"
+                />
+              </Link>
+            </div>
+
+            <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+              <Link
                 href="https://apps.apple.com/us/app/id6743839819"
                 target="_blank"
                 rel="noopener noreferrer"

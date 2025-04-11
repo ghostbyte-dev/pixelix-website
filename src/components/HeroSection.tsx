@@ -52,7 +52,7 @@ export default function () {
               </span>
             </p>
 
-            <div className="flex gap-4 justify-center lg:justify-start mb-8">
+            <div className="flex gap-4 flex-col sm:flex-row justify-center items-center lg:justify-start mb-8">
               <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                 <Link
                   href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix"
@@ -63,6 +63,20 @@ export default function () {
                     src="/buttons/googleplaybadge.png"
                     className="h-16 object-contain"
                     alt="Get it on Google Play"
+                  />
+                </Link>
+              </div>
+
+              <div className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                <Link
+                  href="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/buttons/fdroid-badge.svg"
+                    className="h-16 object-contain"
+                    alt="Get it on F-Droid"
                   />
                 </Link>
               </div>
