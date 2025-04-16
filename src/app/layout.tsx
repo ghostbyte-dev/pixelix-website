@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://app.pixelix.social",
   },
+  icons: [
+    { rel: "icon", url: "/favicon.ico" },
+    { rel: "icon", type: "image/svg+xml", url: "/favicon.svg" },
+  ],
 };
 
 const jsonLd: WithContext<MobileApplication> = {
