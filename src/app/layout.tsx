@@ -29,7 +29,7 @@ const jsonLd: WithContext<MobileApplication> = {
     priceCurrency: "EUR",
   },
   image: [
-    "https://github.com/daniebeler/pixelix/blob/59fa74d084bb78aea16d5a7ef5321b10bd8ff352/github-image.png",
+    "https://github.com/ghostbyte-dev/pixelix/blob/59fa74d084bb78aea16d5a7ef5321b10bd8ff352/github-image.png",
   ],
   applicationCategory: ["social media", ""],
   aggregateRating: {
@@ -56,7 +56,7 @@ const jsonLd: WithContext<MobileApplication> = {
     },
   ],
   sameAs: [
-    "https://github.com/daniebeler/pixelix",
+    "https://github.com/ghostbyte-dev/pixelix",
     "https://mastodon.social/@Pixelix",
     "https://f-droid.org/de/packages/com.daniebeler.pfpixelix/",
     "https://apt.izzysoft.de/fdroid/index/apk/com.daniebeler.pfpixelix",
