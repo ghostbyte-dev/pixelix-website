@@ -9,7 +9,7 @@ Website: [app.pixelix.social](https://app.pixelix.social)
 
 <br>
 
-## ✨ Features
+## Features
 
 - **Responsive Design** – Works beautifully on desktop, tablet, and mobile.
 - **Informational Pages** – About, Features, Privacy Policy, and Imprint.
@@ -19,13 +19,34 @@ Website: [app.pixelix.social](https://app.pixelix.social)
 
 <br>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - [Next.js](https://nextjs.org/) – React framework for production.
 - [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework.
 - [TypeScript](https://www.typescriptlang.org/) – Strongly-typed JavaScript.
 - [Vercel](https://vercel.com/) – Hosting and deployment.
 
+<br>
+
+## Setup
+
+Clone the repository
+
+```
+git clone https://github.com/ghostbyte-dev/pixelix-website.git
+```
+
+Install the required packages
+
+```
+npm install
+```
+
+Run the app
+
+```
+npm run dev
+```
 
 <br>
 
