@@ -2,8 +2,7 @@
 
 ![Preview of App](https://github.com/ghostbyte-dev/pixelix-website/blob/eb06cbe09acfd6a2f5b503c79df04ddd764cc11b/assets/pixelix-website-screenshot.png)
 
-The **Pixelix Website** is the official landing page for Pixelix — a modern, privacy-friendly Pixelfed client.  
-It is built with **Next.js** and deployed on **Vercel**.
+The **Pixelix Website** is the official landing page for Pixelix - a modern, privacy-friendly Pixelfed client.
 
 Website: [app.pixelix.social](https://app.pixelix.social)
 
