@@ -14,10 +14,10 @@ Pixelix Github: [github.com/ghostbyte-dev/pixelix](https://github.com/ghostbyte-
 ## Features
 
 - **Responsive Design** – Works beautifully on desktop, tablet, and mobile.
-- **Informational Pages** – About, Features, Privacy Policy, and Imprint.
+- **Informational Sections** – About, Features, Privacy Policy, and Imprint.
 - **Download Links** – Quick access to the Pixelix mobile app on Google Play, F-Droid, and the App Store.
 - **Lightweight & Fast** – Optimized for performance and accessibility.
-- **SEO-Friendly** – Meta tags and Open Graph support.
+- **SEO-Friendly** – Meta tags and other SEO best practices.
 
 <br>
 
