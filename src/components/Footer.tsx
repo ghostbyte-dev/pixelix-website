@@ -121,12 +121,17 @@ export default function Footer() {
         </div>
 
         <div className="w-full flex justify-center">
-          <div className="p-3 text-center text-zinc-500 flex">
-            Developed with{" "}
-            <Heart className="h-6 w-6 mx-1 text-[#9edf33] fill-current" /> by
-            <Link href="https://ghostbyte.dev">
-              <strong className="text-[#9edf33] ml-1">Ghostbyte</strong>
-            </Link>
+          <div className="font-semibold">
+            A{" "}
+            <Link
+              href="https://ghostbyte.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline text-[#9edf33] font-semibold text-primary"
+            >
+              Ghostbyte
+            </Link>{" "}
+            Production
           </div>
         </div>
       </div>

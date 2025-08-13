@@ -86,7 +86,7 @@ export default function DownloadSection() {
               <div className="">Open Source</div>
             </div>
             <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6 border border-white/10">
-              <div className="text-3xl font-bold  mb-1">200+</div>
+              <div className="text-3xl font-bold  mb-1">250+</div>
               <div>Github Stars</div>
             </div>
           </div>

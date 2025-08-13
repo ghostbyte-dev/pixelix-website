@@ -17,10 +17,10 @@ export default function FeatureCard({
       <div className="absolute inset-0 bg-zinc-900 rounded-2xl transition-all duration-300 group-hover:scale-[1.03]" />
 
       {/* Border glow effect */}
-      <div className="absolute inset-0 rounded-2xl bg-linear-to-br from-lime-500/20 via-lime-500/0 to-lime-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xs" />
+      <div className="absolute inset-0 rounded-2xl bg-linear-to-br from-lime-500/20 via-lime-500/0 to-lime-500/0 opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:scale-[1.03]" />
 
       {/* Content */}
-      <div className="relative p-8 backdrop-blur-xs">
+      <div className="relative p-8">
         <div className="w-16 h-16 rounded-xl bg-lime-400 text-black flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-lime-500/10">
           {icon}
         </div>
