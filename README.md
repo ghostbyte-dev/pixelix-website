@@ -7,6 +7,8 @@ It is built with **Next.js** and deployed on **Vercel**.
 
 Website: [app.pixelix.social](https://app.pixelix.social)
 
+Pixelix Github: [github.com/ghostbyte-dev/pixelix](https://github.com/ghostbyte-dev/pixelix)
+
 <br>
 
 ## Features
