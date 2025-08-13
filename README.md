@@ -54,7 +54,7 @@ npm run dev
 
 Pixelix Website is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
 
-See the [LICENSE](./LICENSE.md) file for details.
+See the [LICENSE](./LICENSE) file for details.
 
 <br>
 
