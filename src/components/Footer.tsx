@@ -1,5 +1,6 @@
 import { Github, Heart } from "lucide-react";
 import Link from "next/link";
+import MastodonIcon from "./icons/MastodonIcon";
 
 export default function Footer() {
   return (
@@ -30,6 +31,17 @@ export default function Footer() {
               >
                 <Github className="h-6 w-6" />
               </Link>
+
+              <Link
+                href="https://mastodon.social/@pixelix"
+                target="_blank"
+                className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center text-lime-400 hover:bg-lime-400 hover:text-black transition-colors"
+                rel="noopener noreferrer me"
+              >
+                <div className="w-5 h-5 relative">
+                  <MastodonIcon />
+                </div>
+              </Link>
             </div>
           </div>
 
@@ -45,7 +57,6 @@ export default function Footer() {
                     href="/#features"
                     className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-lime-500 opacity-0 group-hover:opacity-100 transition-opacity" />
                     Features
                   </Link>
                 </li>
@@ -54,7 +65,6 @@ export default function Footer() {
                     href="/#download"
                     className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-lime-500 opacity-0 group-hover:opacity-100 transition-opacity" />
                     Download
                   </Link>
                 </li>
@@ -68,7 +78,6 @@ export default function Footer() {
                     href="/privacy"
                     className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-lime-500 opacity-0 group-hover:opacity-100 transition-opacity" />
                     Privacy Policy
                   </Link>
                 </li>
@@ -77,7 +86,6 @@ export default function Footer() {
                     href="/imprint"
                     className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-lime-500 opacity-0 group-hover:opacity-100 transition-opacity" />
                     Imprint
                   </Link>
                 </li>
@@ -93,7 +101,6 @@ export default function Footer() {
                     href="https://pixelfed.org"
                     className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-lime-500 opacity-0 group-hover:opacity-100 transition-opacity" />
                     Pixelfed Official
                   </Link>
                 </li>
@@ -102,7 +109,6 @@ export default function Footer() {
                     href="https://github.com/ghostbyte-dev/pixelix"
                     className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-lime-500 opacity-0 group-hover:opacity-100 transition-opacity" />
                     Source Code
                   </Link>
                 </li>
@@ -111,7 +117,6 @@ export default function Footer() {
                     href="https://github.com/ghostbyte-dev/pixelix/issues"
                     className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-lime-500 opacity-0 group-hover:opacity-100 transition-opacity" />
                     Report an Issue
                   </Link>
                 </li>
