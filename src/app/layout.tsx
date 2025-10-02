@@ -4,6 +4,7 @@ import "./globals.css";
 import type { MobileApplication, WithContext } from "schema-dts";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import PlausibleProvider from "next-plausible";
 
 const inter = Inter({ subsets: ["latin"], weight: "400" });
 
@@ -80,11 +81,19 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
 
-        <Header />
+        <PlausibleProvider
+          domain="app.pixelix.social"
+          selfHosted={true}
+          trackOutboundLinks={true}
+          hash={true}
+          customDomain="https://plausible.ghostbyte.dev"
+        >
+          <Header />
 
-        {children}
+          {children}
 
-        <Footer />
+          <Footer />
+        </PlausibleProvider>
       </body>
     </html>
   );
