@@ -99,6 +99,8 @@ export default function Footer() {
                 <li>
                   <Link
                     href="https://pixelfed.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
                   >
                     Pixelfed Official
@@ -107,6 +109,8 @@ export default function Footer() {
                 <li>
                   <Link
                     href="https://github.com/ghostbyte-dev/pixelix"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
                   >
                     Source Code
@@ -115,9 +119,22 @@ export default function Footer() {
                 <li>
                   <Link
                     href="https://github.com/ghostbyte-dev/pixelix/issues"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
                   >
                     Report an Issue
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    href="https://plausible.ghostbyte.dev/app.pixelix.social"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
+                  >
+                    Page Analytics
                   </Link>
                 </li>
               </ul>
