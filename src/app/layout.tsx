@@ -74,6 +74,17 @@ export default function RootLayout({
       lang="en"
       className="scroll-smooth selection:bg-black selection:text-lime-400"
     >
+      <head>
+        <PlausibleProvider
+          domain="app.pixelix.social"
+          selfHosted={true}
+          trackOutboundLinks={true}
+          trackLocalhost={true}
+          enabled={true}
+          hash={true}
+          customDomain="https://plausible.ghostbyte.dev"
+        />
+      </head>
       <body className={inter.className}>
         <script
           type="application/ld+json"
@@ -81,19 +92,11 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
 
-        <PlausibleProvider
-          domain="app.pixelix.social"
-          selfHosted={true}
-          trackOutboundLinks={true}
-          hash={true}
-          customDomain="https://plausible.ghostbyte.dev"
-        >
-          <Header />
+        <Header />
 
-          {children}
+        {children}
 
-          <Footer />
-        </PlausibleProvider>
+        <Footer />
       </body>
     </html>
   );
