@@ -1,22 +1,13 @@
 import type { NextConfig } from "next";
+import { withPlausibleProxy } from "next-plausible";
 
 const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  async rewrites() {
-    return [
-      {
-        source: "/js/script.hash.outbound-links.js",
-        destination:
-          "https://plausible.ghostbyte.dev/js/script.hash.outbound-links.js",
-      },
-      {
-        source: "/api/event",
-        destination: "https://plausible.ghostbyte.dev/api/event",
-      },
-    ];
-  },
 };
 
-export default nextConfig;
+export default withPlausibleProxy({
+  customDomain: "https://plausible.ghostbyte.dev",
+  scriptName: "script.hash.outbound-links",
+})(nextConfig);

@@ -4,6 +4,7 @@ import "./globals.css";
 import type { MobileApplication, WithContext } from "schema-dts";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import PlausibleProvider from "next-plausible";
 import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"], weight: "400" });
@@ -74,25 +75,25 @@ export default function RootLayout({
       lang="en"
       className="scroll-smooth selection:bg-black selection:text-lime-400"
     >
-      <head>
-        {/* Plausible script */}
-        <Script
-          strategy="afterInteractive"
-          data-domain="app.pixelix.social"
-          src="/js/script.hash.outbound-links.js"
-        />
-      </head>
       <body className={inter.className}>
         <script
           type="application/ld+json"
           // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <Header />
 
-        {children}
+        <PlausibleProvider
+          domain="app.pixelix.social"
+          selfHosted
+          trackOutboundLinks
+          hash
+        >
+          <Header />
 
-        <Footer />
+          {children}
+
+          <Footer />
+        </PlausibleProvider>
       </body>
     </html>
   );
