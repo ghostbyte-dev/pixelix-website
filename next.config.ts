@@ -1,11 +1,7 @@
 import type { NextConfig } from "next";
 import { withPlausibleProxy } from "next-plausible";
 
-const nextConfig: NextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-};
+const nextConfig: NextConfig = {};
 
 export default withPlausibleProxy({
   customDomain: "https://plausible.ghostbyte.dev",

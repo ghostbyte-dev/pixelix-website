@@ -1,10 +1,8 @@
 "use client";
 
-import "swiper/css";
-import "swiper/css/bundle";
-import WhySection from "@/components/WhySection";
-import HeroSection from "@/components/HeroSection";
 import DownloadSection from "@/components/DownloadSection";
+import HeroSection from "@/components/HeroSection";
+import WhySection from "@/components/WhySection";
 
 export default function Home() {
   return (
