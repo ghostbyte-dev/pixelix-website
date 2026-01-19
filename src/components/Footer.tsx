@@ -137,6 +137,17 @@ export default function Footer() {
                     Page Analytics
                   </Link>
                 </li>
+
+                <li>
+                  <Link
+                    href="https://github-release-stats.ghostbyte.dev/ghostbyte-dev/pixelix"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 group"
+                  >
+                    Github Release Stats
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
