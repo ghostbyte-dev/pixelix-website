@@ -73,20 +73,20 @@ export default function DownloadSection() {
 
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
-            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6 border border-white/10">
+            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6">
               <div className="text-3xl font-bold mb-1">800+</div>
               <div>Active Users</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6 border border-white/10">
+            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6">
               <div className="text-3xl font-bold mb-1">4.5</div>
               <div>User Rating</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6 border border-white/10">
+            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6">
               <div className="text-3xl font-bold mb-1">100%</div>
               <div className="">Open Source</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6 border border-white/10">
-              <div className="text-3xl font-bold  mb-1">250+</div>
+            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6">
+              <div className="text-3xl font-bold  mb-1">285+</div>
               <div>Github Stars</div>
             </div>
           </div>
