@@ -4,7 +4,7 @@ export default function DownloadSection() {
   return (
     <section className="py-24 md:py-32 relative overflow-hidden" id="download">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-linear-to-br from-lime-300 via-lime-400 to-lime-500" />
+      <div className="absolute inset-0 bg-linear-to-br from-lime-300 via-primary to-lime-500" />
 
       {/* Background pattern */}
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGZpbGwtb3BhY2l0eT0iMC4wMiIgZD0iTTAgMGg2MHY2MEgweiIvPjxwYXRoIGQ9Ik02MCAwdjYwSDBWMGg2MHpNMzAgMzBoMzBWMEgzMHYzMHpNMCA2MGgzMFYzMEgwdjMweiIgZmlsbC1vcGFjaXR5PSIuMDUiIGZpbGw9IiMwMDAiLz48L2c+PC9zdmc+')] opacity-50" />
@@ -73,20 +73,20 @@ export default function DownloadSection() {
 
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
-            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6 border border-white/10">
+            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6">
               <div className="text-3xl font-bold mb-1">800+</div>
               <div>Active Users</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6 border border-white/10">
+            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6">
               <div className="text-3xl font-bold mb-1">4.5</div>
               <div>User Rating</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6 border border-white/10">
+            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6">
               <div className="text-3xl font-bold mb-1">100%</div>
               <div className="">Open Source</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6 border border-white/10">
-              <div className="text-3xl font-bold  mb-1">250+</div>
+            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6">
+              <div className="text-3xl font-bold  mb-1">285+</div>
               <div>Github Stars</div>
             </div>
           </div>

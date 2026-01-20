@@ -1,6 +1,6 @@
-"use client";
-
+import ContributeSection from "@/components/ContributeSection";
 import DownloadSection from "@/components/DownloadSection";
+import GhostbyteSection from "@/components/GhostbyteSection";
 import HeroSection from "@/components/HeroSection";
 import WhySection from "@/components/WhySection";
 
@@ -13,6 +13,10 @@ export default function Home() {
         <WhySection />
 
         <DownloadSection />
+
+        <GhostbyteSection />
+
+        <ContributeSection />
       </div>
     </main>
   );

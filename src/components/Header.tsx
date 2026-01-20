@@ -41,6 +41,12 @@ export default function Header() {
         >
           Download
         </Link>
+        <Link
+          href="/#donate"
+          className="font-medium hover:text-lime-900 transition-colors"
+        >
+          Donate
+        </Link>
       </nav>
       <div>
         <Link
