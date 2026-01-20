@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import PlausibleProvider from "next-plausible";
 import type { MobileApplication, WithContext } from "schema-dts";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import PlausibleProvider from "next-plausible";
-import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"], weight: "400" });
 
@@ -78,7 +77,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <script
           type="application/ld+json"
-          // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
+          // biome-ignore lint/security/noDangerouslySetInnerHtml: <>
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
 

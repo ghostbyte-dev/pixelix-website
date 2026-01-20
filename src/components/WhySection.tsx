@@ -1,10 +1,10 @@
 import {
   Camera,
-  Users,
-  Globe,
-  Shield,
   Code,
+  Globe,
   MessageCircle,
+  Shield,
+  Users,
 } from "lucide-react";
 import FeatureCard from "./FeatureCard";
 

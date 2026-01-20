@@ -1,5 +1,3 @@
-"use client";
-
 import ContributeSection from "@/components/ContributeSection";
 import DownloadSection from "@/components/DownloadSection";
 import GhostbyteSection from "@/components/GhostbyteSection";
