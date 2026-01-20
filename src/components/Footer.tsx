@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand column */}
           <div className="md:w-1/3">
             <div className="flex items-center gap-3 mb-8">
-              <div className="w-12 h-12 bg-linear-to-br from-lime-400 to-lime-600 rounded-xl flex items-center justify-center text-black font-bold text-xl">
+              <div className="w-12 h-12 bg-linear-to-br from-primary to-lime-600 rounded-xl flex items-center justify-center text-black font-bold text-xl">
                 <img
                   src="/logo_dark.svg"
                   height={22}
@@ -27,7 +27,7 @@ export default function Footer() {
             <div className="flex gap-4">
               <Link
                 href="https://github.com/ghostbyte-dev/pixelix"
-                className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center text-lime-400 hover:bg-lime-400 hover:text-black transition-colors"
+                className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors"
               >
                 <Github className="h-6 w-6" />
               </Link>
@@ -35,7 +35,7 @@ export default function Footer() {
               <Link
                 href="https://mastodon.social/@pixelix"
                 target="_blank"
-                className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center text-lime-400 hover:bg-lime-400 hover:text-black transition-colors"
+                className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors"
                 rel="noopener noreferrer me"
               >
                 <div className="w-5 h-5 relative">
@@ -48,7 +48,7 @@ export default function Footer() {
           {/* Links columns */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-10 md:w-2/3">
             <div>
-              <h3 className="text-xl font-bold mb-6 text-lime-400">
+              <h3 className="text-xl font-bold mb-6 text-primary">
                 Navigation
               </h3>
               <ul className="space-y-4">
@@ -71,7 +71,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-6 text-lime-400">Legal</h3>
+              <h3 className="text-xl font-bold mb-6 text-primary">Legal</h3>
               <ul className="space-y-4">
                 <li>
                   <Link
@@ -92,9 +92,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-6 text-lime-400">
-                Resources
-              </h3>
+              <h3 className="text-xl font-bold mb-6 text-primary">Resources</h3>
               <ul className="space-y-4">
                 <li>
                   <Link

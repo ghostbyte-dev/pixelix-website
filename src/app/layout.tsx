@@ -72,7 +72,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="scroll-smooth selection:bg-black selection:text-lime-400"
+      className="scroll-smooth selection:bg-black selection:text-primary"
     >
       <body className={inter.className}>
         <script

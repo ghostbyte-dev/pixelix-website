@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function () {
   return (
-    <section className="relative overflow-hidden bg-linear-to-br from-lime-300 via-lime-400 to-lime-500 py-20 md:py-28">
+    <section className="relative overflow-hidden bg-linear-to-br from-lime-300 via-primary to-lime-500 py-20 md:py-28">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-white/20 to-transparent" />
       <div className="absolute -top-40 right-0 w-96 h-96 bg-lime-200 rounded-full opacity-20 blur-3xl" />
@@ -15,7 +15,7 @@ export default function () {
           {/* Left content */}
           <div className="lg:w-1/2 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-black/10 backdrop-blur-md rounded-full mb-6 border border-white/10">
-              <span className="w-2 h-2 rounded-full bg-lime-400 animate-pulse" />
+              <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
               <span className="text-sm font-medium">
                 Open Source • Federated • Made for You
               </span>
@@ -103,7 +103,7 @@ export default function () {
                 <div className="w-10 h-10 rounded-full ring-2 ring-white bg-lime-300 flex items-center justify-center text-sm shadow-lg">
                   👍
                 </div>
-                <div className="w-10 h-10 rounded-full ring-2 ring-white bg-lime-400 flex items-center justify-center text-sm shadow-lg">
+                <div className="w-10 h-10 rounded-full ring-2 ring-white bg-primary flex items-center justify-center text-sm shadow-lg">
                   ❤️
                 </div>
               </div>
@@ -118,7 +118,7 @@ export default function () {
 
           {/* Right content - Phone mockups */}
           <div className="lg:w-1/2 relative">
-            <div className="absolute inset-0 bg-linear-to-br from-lime-400 to-lime-600 rounded-full opacity-20 blur-3xl transform scale-125" />
+            <div className="absolute inset-0 bg-linear-to-br from-primary to-lime-600 rounded-full opacity-20 blur-3xl transform scale-125" />
 
             {/* Main phone */}
             <div className="relative mx-auto w-[280px] md:w-[320px]">

@@ -8,12 +8,12 @@ export default function GhostbyteSection() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-lime-500/10 backdrop-blur-xs rounded-full mb-6 border border-lime-500/20">
-            <span className="w-2 h-2 rounded-full bg-lime-400 animate-pulse" />
-            <span className="text-sm font-medium text-lime-400">
+            <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
+            <span className="text-sm font-medium text-primary">
               ghostbyte.dev
             </span>
           </div>
-          <h2 className="text-4xl pb-2 md:text-6xl font-bold mb-6 bg-linear-to-r from-lime-400 to-lime-300 bg-clip-text text-transparent">
+          <h2 className="text-4xl pb-2 md:text-6xl font-bold mb-6 bg-linear-to-r from-primary to-lime-300 bg-clip-text text-transparent">
             A Ghostbyte Production
           </h2>
           <p className="text-zinc-400 max-w-2xl mx-auto text-lg">

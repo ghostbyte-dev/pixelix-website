@@ -1,19 +1,10 @@
 @import 'tailwindcss';
 
 @theme inline {
-  --color-primary: #95dc1a;
+  --color-primary: #9ae600;
 }
 
-@layer base {
-
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
-  }
-}
+@layer base {}
 
 @layer utilities {
   :root {
