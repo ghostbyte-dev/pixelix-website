@@ -74,6 +74,9 @@ export default function RootLayout({
       lang="en"
       className="scroll-smooth selection:bg-black selection:text-primary"
     >
+      <head>
+        <link rel="me" href="https://mastodon.social/@pixelix" />
+      </head>
       <body className={inter.className}>
         <script
           type="application/ld+json"
