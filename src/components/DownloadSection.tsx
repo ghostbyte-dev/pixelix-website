@@ -10,8 +10,8 @@ export default function DownloadSection() {
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGZpbGwtb3BhY2l0eT0iMC4wMiIgZD0iTTAgMGg2MHY2MEgweiIvPjxwYXRoIGQ9Ik02MCAwdjYwSDBWMGg2MHpNMzAgMzBoMzBWMEgzMHYzMHpNMCA2MGgzMFYzMEgwdjMweiIgZmlsbC1vcGFjaXR5PSIuMDUiIGZpbGw9IiMwMDAiLz48L2c+PC9zdmc+')] opacity-50" />
 
       <div className="container mx-auto px-4 text-center relative z-10">
-        <div className="max-w-4xl mx-auto bg-white/10 backdrop-blur-lg p-12 rounded-3xl shadow-2xl border border-white/20">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-black/10 backdrop-blur-xs rounded-full mb-6 border border-white/10">
+        <div className="max-w-4xl mx-auto bg-linear-to-br from-[#a7e53b] to-[#a1e51a] p-12 rounded-3xl shadow-2xl">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-black/5 backdrop-blur-xs rounded-full mb-6 border border-white/10">
             <span className="w-2 h-2 rounded-full bg-black animate-pulse" />
             <span className="text-sm font-medium text-black">
               JOIN THE COMMUNITY

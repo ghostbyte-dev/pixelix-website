@@ -108,7 +108,7 @@ export default function () {
                 </div>
               </div>
               <div>
-                <div className="font-bold">1,300+ Downloads</div>
+                <div className="font-bold">3,600+ Downloads</div>
                 <div className="text-sm text-black/60">
                   Join the community today
                 </div>
