@@ -56,6 +56,21 @@ export default function GhostbyteSection() {
           <FeatureCard
             icon={
               <Image
+                src="/ghostbyte/fedisea.svg"
+                alt=""
+                width={32}
+                height={32}
+              />
+            }
+            accentColor="#e9f7f9"
+            href="https://fedisea.surf/"
+            title="FediSea"
+            description="FediSea collects stats about the fediverse servers and provides that data using an open API."
+          />
+
+          <FeatureCard
+            icon={
+              <Image
                 src="/ghostbyte/socialfolio.svg"
                 alt=""
                 width={28}
@@ -83,21 +98,6 @@ export default function GhostbyteSection() {
             href="https://together.ghostbyte.dev/"
             title="Together"
             description="A tool for managing households and communities. Features are a shared shopping list, todos, calendar and more."
-          />
-
-          <FeatureCard
-            icon={
-              <Image
-                src="/ghostbyte/ghostbyte-library.svg"
-                alt=""
-                width={32}
-                height={28}
-              />
-            }
-            accentColor="#9d9cff"
-            href="https://library.ghostbyte.dev/"
-            title="Ghostbyte Library"
-            description="A collection of many useful websites and tools. They are sorted by category and include some tags to quickly find the right one for your needs."
           />
         </div>
 
