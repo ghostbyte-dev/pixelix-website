@@ -1,4 +1,6 @@
-import { Github, Heart } from "lucide-react";
+import { GithubIcon } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
+import Image from "next/image";
 import Link from "next/link";
 import MastodonIcon from "./icons/MastodonIcon";
 
@@ -11,7 +13,7 @@ export default function Footer() {
           <div className="md:w-1/3">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 bg-linear-to-br from-primary to-lime-600 rounded-xl flex items-center justify-center text-black font-bold text-xl">
-                <img
+                <Image
                   src="/logo_dark.svg"
                   height={22}
                   width={22}
@@ -21,15 +23,14 @@ export default function Footer() {
               <h3 className="text-3xl font-bold">Pixelix</h3>
             </div>
             <p className="mb-8 text-zinc-400 text-lg">
-              An open-source Android and iOS client for Pixelfed, designed with
-              modern aesthetics and performance in mind.
+              An open-source Android and iOS client for Pixelfed and Vernissage.
             </p>
             <div className="flex gap-4">
               <Link
                 href="https://github.com/ghostbyte-dev/pixelix"
                 className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors"
               >
-                <Github className="h-6 w-6" />
+                <HugeiconsIcon icon={GithubIcon} className="h-6 w-6" />
               </Link>
 
               <Link
@@ -158,7 +159,7 @@ export default function Footer() {
               href="https://ghostbyte.dev"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline text-[#9edf33] font-semibold text-primary"
+              className="hover:underline text-primary font-semibold"
             >
               Ghostbyte
             </Link>{" "}

@@ -1,4 +1,5 @@
-import { Github } from "lucide-react";
+import { GithubIcon } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
 import Link from "next/link";
 
 export default function Header() {
@@ -53,7 +54,7 @@ export default function Header() {
           href="https://github.com/ghostbyte-dev/pixelix"
           className="bg-black text-white hover:bg-lime-900 border-none rounded-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-md flex items-center px-4 py-2"
         >
-          <Github className="mr-2 h-4 w-4" />
+          <HugeiconsIcon icon={GithubIcon} className="h-4 w-4 mr-2" />
           View on Github
         </Link>
       </div>

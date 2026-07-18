@@ -23,8 +23,7 @@ export default function DownloadSection() {
           </h2>
           <p className="text-xl mb-10 max-w-2xl mx-auto">
             Download Pixelix today and start sharing your photos with the
-            federated Pixelfed network. Join thousands of users who've already
-            made the switch.
+            federated networks Pixelfed and Vernissage.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-10">

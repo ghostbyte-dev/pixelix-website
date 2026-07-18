@@ -1,46 +1,48 @@
 import {
-  Camera,
-  Code,
-  Globe,
-  MessageCircle,
-  Shield,
-  Users,
-} from "lucide-react";
+  CameraIcon,
+  CodeIcon,
+  GlobalIcon,
+  Message02Icon,
+  ShieldIcon,
+  ThirdBracketSquareIcon,
+  UserGroupIcon,
+} from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
 import FeatureCard from "./FeatureCard";
 
 const features = [
   {
-    icon: Camera,
+    icon: CameraIcon,
     title: "Beautiful Image Sharing",
     description:
       "Showcase your photos on the federated Pixelfed network with support for collections, making your content stand out.",
   },
   {
-    icon: Globe,
+    icon: GlobalIcon,
     title: "Federated Network",
     description:
       "Connect with users across the Fediverse. Follow accounts from any Pixelfed instance and expand your social reach.",
   },
   {
-    icon: MessageCircle,
+    icon: Message02Icon,
     title: "Direct Messages",
     description:
       "Easily chat with friends and followers through text-based direct messages. Stay connected and keep conversations going within the Pixelfed network.",
   },
   {
-    icon: Users,
+    icon: UserGroupIcon,
     title: "Community Focused",
     description:
       "Engage with a community that values privacy and user control over algorithms. Build real connections.",
   },
   {
-    icon: Shield,
+    icon: ShieldIcon,
     title: "Privacy Respecting",
     description:
       "No tracking, no ads, no algorithms manipulating your feed. Just the content you choose to follow.",
   },
   {
-    icon: Code,
+    icon: ThirdBracketSquareIcon,
     title: "Open Source",
     description:
       "Fully open source and transparent. Contribute to the development or audit the code yourself anytime.",
@@ -75,7 +77,7 @@ export default function WhySection() {
             <FeatureCard
               // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
               key={index}
-              icon={<feature.icon />}
+              icon={<HugeiconsIcon icon={feature.icon} className="h-7 w-7" />}
               title={feature.title}
               description={feature.description}
             />

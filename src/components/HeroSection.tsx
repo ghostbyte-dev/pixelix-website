@@ -45,7 +45,8 @@ export default function () {
             </h1>
 
             <p className="text-xl md:text-2xl mb-8 text-black/80 max-w-xl">
-              The ultimate Pixelfed experience for Android and iOS.{" "}
+              The ultimate Pixelfed and Vernissage experience for Android and
+              iOS.{" "}
               <span className="font-bold">
                 Your photos. Your network. Your way.
               </span>
