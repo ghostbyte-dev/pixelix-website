@@ -1,6 +1,6 @@
-import type { NextConfig } from "next";
+import { withPlausibleProxy } from "next-plausible";
 
-const nextConfig: NextConfig = {
+/* const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
@@ -14,6 +14,8 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-};
+}; */
 
-export default nextConfig;
+export default withPlausibleProxy({
+  src: "https://plausible.ghostbyte.dev/js/script.hash.outbound-links.js",
+})({});

@@ -84,7 +84,11 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
 
-        <PlausibleProvider src="app.pixelix.social">
+        <PlausibleProvider
+          init={{
+            hashBasedRouting: true,
+          }}
+        >
           <Header />
 
           {children}
