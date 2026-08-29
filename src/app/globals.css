@@ -4,8 +4,6 @@
   --color-primary: #9ae600;
 }
 
-@layer base {}
-
 @layer utilities {
   :root {
     --foreground-rgb: 0, 0, 0;

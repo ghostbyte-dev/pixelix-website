@@ -73,7 +73,7 @@ export default function DownloadSection() {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
             <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6">
-              <div className="text-3xl font-bold mb-1">800+</div>
+              <div className="text-3xl font-bold mb-1">1.200+</div>
               <div>Active Users</div>
             </div>
             <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6">
@@ -85,7 +85,7 @@ export default function DownloadSection() {
               <div className="">Open Source</div>
             </div>
             <div className="bg-white/10 backdrop-blur-xs rounded-xl p-6">
-              <div className="text-3xl font-bold  mb-1">330+</div>
+              <div className="text-3xl font-bold  mb-1">340+</div>
               <div>Github Stars</div>
             </div>
           </div>
