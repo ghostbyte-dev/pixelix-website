@@ -18,9 +18,8 @@ export default function ContributeSection() {
 
           <h2 className="text-4xl md:text-6xl font-bold mb-6">Support Us</h2>
           <p className="text-xl mb-10 max-w-2xl mx-auto">
-            If you like Pixelix, please consider supporting us by purchasing it
-            from Google Play Store or donating a small amount via Liberapay or
-            Buy Me a Coffee.
+            If you like Pixelix, please consider supporting us by donating a
+            small amount via Liberapay or Buy Me a Coffee.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
